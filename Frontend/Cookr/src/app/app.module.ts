@@ -4,6 +4,7 @@ import { MatSliderModule } from '@angular/material/slider';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -21,6 +22,7 @@ import { MatListModule } from '@angular/material/list';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     BrowserAnimationsModule,
     MatSliderModule,
     LayoutModule,
